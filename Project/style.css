@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position: fixed;
+    width: 95%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    color: white;
+}
+
+.main-logo {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+
+}
+
+.main-logo p {
+    padding: 12px 6px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_links li a:hover {
+    color: rgb(133, 95, 95);
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+ a:hover {
+    color: rgb(180, 149, 149);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px 0 5px;
+}
+.footer-col1{
+    width:49%;
+    padding:0 5px;
+}
+.label-area{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    padding:15px 0px;
+}
+.label-area a{
+    padding-top:5px;
+}
+.content-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width:25%;
+    padding:10px 0;
+    margin-right:3%;
+    }
+.footer-col li {
+    margin:3% 20% 0% 0%;
+    font-family: 'Lato', sans-serif;
+font-family: 'Pathway Extreme', sans-serif;
+font-family: 'Tajawal', sans-serif;
+
+}
+.row-end{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 ;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+   }
+
+.row-end div{
+    margin-bottom: 20px;
+   }
+.container1 {
+    width: auto;
+    height: 685px;
+}
+.div1{
+    height: 350px;
+    background-image: url(https://img.freepik.com/free-photo/women-s-apparel-minimal-set-white-tone_53876-103573.jpg?w=996&t=st=1687346228~exp=1687346828~hmac=608477fa1e965484a2d10a298dbf562fdfd051bf2bc7f0996050edf1223d1b99);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 66%;
+    background-position: right;
+    padding-top: 200px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #e4e4e4;
+}
+.btn{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 35px;
+}
+.div1 h1{
+    padding-left: 35px;
+}
+.div1 h5{
+    padding-left: 35px;
+    font-size: 15px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0,0.6); 
+}
+.btn:hover{
+    background-color: gainsboro;
+    color:black
+
+}
+.img{
+    height: 5%;
+    width: 6%;
+    margin-left: 130px;
+    margin-bottom: 20px;
+
+}
+.img2{
+    width: auto;
+    height: 100px;
+    background-image: url(fp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.div2{
+    display:flex;
+    background-color: gainsboro;
+    margin-top: 1.5px;
+    padding-top: 20px;
+}
+.div2 p{
+    padding-left:20px ;
+}
+body
+{
+margin: 0;
+padding: 0;
+background: #262626;
+}
+
+.hh ,.hh1
+{
+   width: 550px;
+   margin-left: 5%;
+   margin-top: 3%;
+   height: 350px;
+   background-color: white;
+   float: left;
+
+}
+.hh1
+{
+   margin-right: 70px;
+   height: 350px;
+   float: right;
+
+}
+.img-part,.img-part1
+{
+    width: 150px;
+    height: 200px;
+    float:left;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-image: url(images/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+}
+.img-part1
+{
+    background-image: url(images/clock.jpg);
+}
+#button1,#button2
+{
+    margin-top: 5%;
+    height: 40px;
+    width: 211px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    
+}
+#button1:hover ,#button2:hover{
+    background-color: #e4e4e4;
+    color: #262626;
+}
+
+.comp
+{
+    height: 550px;
+    background-color: gainsboro;
+    width: auto;
+}
+.comp h5{
+    font-size: 30px;
+    padding-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.parent {}
+
+  
+    
+
+.par1 , .par2{
+    float: right;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 100px;
+
+
+}  
+
+.par1 p , .par2 p{
+    font-size: 17px;
+}
+
+.fa{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.checked {
+    color: plum;
+    width: 40px;
+    padding-left: 7px;
+  }  
